@@ -13,3 +13,8 @@
 
 .col2 { width : 180px; }
 .col4 { width : 380px; }
+
+img{
+ max-width: 300px;
+ height: auto;
+}
