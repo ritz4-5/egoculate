@@ -7,12 +7,24 @@
 .box{
     margin : 5px;
     padding : 5px;
-    background : #D8D5D2;
     float : left;
+    border-radius: 5px; 
+    -webkit-border-radius: 5px;	 /* Safari,Google Chrome用 */
+    -moz-border-radius: 5px;    /* Firefox用 */
 }
 
-.col2 { width : 180px; }
-.col4 { width : 380px; }
+.col2 {
+     min-width : 50px;
+     max-width : 300px;
+     word-wrap: break-word;
+     background: #d3eda3;
+ }
+.col4 {
+     max-width: 300px; 
+     word-wrap: break-word;
+     background: #e1f2fa;
+}
+
 
 img{
  max-width: 300px;
